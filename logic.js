@@ -1,3 +1,6 @@
+// PASSWORD GENERATOR
+
+
 // chiedere all'utente il suo nome
 let nome = prompt("Inserisci il tuo nome");
 console.log(nome);
@@ -11,4 +14,4 @@ let colore = prompt("Inserisci il tuo colore preferito");
 console.log(colore);
 
 // output
-document.getElementById("first-title").innerHTML = `Ti chiami ${nome} ${cognome} e il ${colore} è il tuo colore preferito;`
+document.getElementById("first-title").innerHTML = `${nome}${cognome}${colore}21`;
