@@ -13,5 +13,10 @@ console.log(cognome);
 let colore = prompt("Inserisci il tuo colore preferito");
 console.log(colore);
 
+// generare la password
+let password = nome + cognome + colore + 21;
+
 // output
-document.getElementById("first-title").innerHTML = `${nome}${cognome}${colore}21`;
+console.log(password);
+
+document.getElementById("first-title").innerHTML = `password: ${password}`;
