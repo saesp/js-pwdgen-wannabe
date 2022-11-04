@@ -11,4 +11,4 @@ let colore = prompt("Inserisci il tuo colore preferito");
 console.log(colore);
 
 // output
-document.getElementById("first-title").innerHTML = `Ti chiami ${nome} ${cognome} e il ${colore} è il tuo colore preferito; 
+document.getElementById("first-title").innerHTML = `Ti chiami ${nome} ${cognome} e il ${colore} è il tuo colore preferito;`
